@@ -7,6 +7,14 @@
     box-sizing: border-box;
     font-family: roboto, sans-serif;
 }
+html
+{
+    scrollbar-width: none;
+}
+body
+{
+    background-color: rgb(168, 201, 223);
+}
 .container
 {
     height: 100vh;
@@ -123,18 +131,25 @@
 }
 .content .projects-menu
 {
-    background-color: rgb(124, 124, 124);
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    padding: 15px;
+}
+.projects-menu .projects-grid
+{
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 5px;
-    gap: 5px;
+    padding-bottom: 10px;
+    gap: 15px;
 }
 .projects-menu .project-card
 {
-    background-color: rgba(255, 255, 255, 0.74);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
 }
 .content .news-menu
 {
