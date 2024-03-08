@@ -18,7 +18,7 @@ body
 }
 .container
 {
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: repeat(2, 1fr);
@@ -39,6 +39,16 @@ body
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.items-group .element
+{
+    display: flex;
+    gap: 10px;
+}
+.items-group .element img
+{
+    width: 20px;
+    height: 20px;
 }
 
 .content
