@@ -23,6 +23,10 @@ body
     grid-template-columns: 1fr 5fr;
     grid-template-rows: repeat(2, 1fr);
 }
+.clickable
+{
+    cursor: pointer;
+}
 
 .side-bar
 {
@@ -95,7 +99,7 @@ body
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
 }
 
